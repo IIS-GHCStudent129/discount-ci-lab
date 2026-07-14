@@ -1,6 +1,4 @@
 def calculate_discounted_price(price, customer_type, coupon_code=None, is_holiday=False):
-
-
     if price < 0:
         raise ValueError("price cannot be negative")
     customer_type = customer_type.lower()
